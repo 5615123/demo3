@@ -8,5 +8,8 @@ public class Test {
 		System.out.print("请输入姓名:");
 		String name = input.next();
 		System.out.println("您输入的姓名是:"+name);
+		System.out.print("请输入年龄:");
+		int age = input.nextInt();
+		System.out.println("您输入的年龄是:"+age);
 	}
 }
